@@ -1,0 +1,10 @@
+var str = 'a.b.c.d#.e.f.g.h#.i.j.k.l';
+        var ar = [];
+        var sp = str.split('#');
+        for (var i = 0; i < sp.length; i++) {
+            var sub = sp[i].split('.');
+            for (var j = 0; j < sub.length; j++) {
+                ar.push(sub[j]);
+            }
+        }
+        console.log(ar);

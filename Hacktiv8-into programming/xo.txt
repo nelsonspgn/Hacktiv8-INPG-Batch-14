@@ -1,0 +1,74 @@
+var jarak = ["","","X","O","","X"];
+
+var tampungO = [];
+var tampungX = [];
+var hasil
+
+for ( i=0 ; i<jarak.length ; i++ ){
+  
+//   console.log(i)
+  
+  if ( jarak[i] === "O"){
+    
+//     console.log("O")
+    tampungO.push(i)
+//      console.log(tampungO)
+    
+  }
+}
+
+for ( j=0 ; j<jarak.length ; j++ ){
+  
+//   console.log("ini j"+j)
+  
+  if ( jarak[j] === "X"){
+    
+//     console.log("X")
+    tampungX.push(j)
+//     console.log(tampungX)
+    
+  }
+}
+
+hasil = tampungO[0]-tampungX[0]
+
+if ( tampungO[0] < tampungX[0])
+  {
+    
+    hasil = hasil * (-1)
+    
+    
+  }
+
+
+
+
+console.log(hasil)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
