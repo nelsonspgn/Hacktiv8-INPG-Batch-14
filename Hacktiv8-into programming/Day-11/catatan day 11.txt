@@ -1,0 +1,185 @@
+// var numbers = [ [ 1, 2 ], [ 3, 4 ], [ 5,6 ] ];
+// var students = [ [ 'Budi', 'SD 1 Cicayur' ], [ 'Suci', 'SD 23 Beji' ] ];
+
+var arr = []
+
+// arr [0].push(1)
+// arr [0].push(2)
+// arr [0].push(3)
+
+function p(a,b){
+  return arr[a].push(b)
+}
+
+p(0,'ikan')	
+p(0,2)
+p(0,3)
+
+
+p(1,4)
+p(1,5)
+p(1,6)
+
+p(2,7)
+p(2,8)
+p(2,9)
+
+console.log(arr)
+
+
+
+===========================
+//function return function//
+// functionp(a){
+//   return function(b){
+//     arr[a].push(b)
+//   }
+// }
+
+
+
+// p(0)(1)
+// p(0)(2)
+// p(0)(3)
+// console.log(arr)
+
+
+
+
+// ===========================
+//bisa juga push arr kosong
+// //var arr = []
+// arr.push([])
+// arr.push([])
+// arr.push([])
+// hasil =  var arr [[],[],[]]
+  
+
+//==============================
+
+//Cara membuat Clone untuk array agar nilai aslinya tidak hilang
+  //var arrClone =arr.slice()
+  //arrClone.push(10)
+  //console.log(arr)
+  //console.log(arrClone)
+
+
+======================================================================================>
+SOAL DAY 11
+
+// soal
+
+// arrayMultiDimensi(5,3)
+// return
+
+// [
+//   [1,2,3,4,5],
+//   [6,7,8,9,10,
+//   [11,12,13,14,15]
+// ]
+
+var arr=[]
+var temp = []
+
+
+
+
+// Nomor 2.
+
+// soal
+
+// arrayMultiDimensi(5,3)
+// return
+
+// [
+//   [1,2,3,4,5],
+//   [1,2,3,4,5],
+//  [1,2,3,4,5],
+//   
+// ]
+
+// function amd (v,o){
+  
+// for (j = 0 ; j < o ; j++){
+    
+// var temp = arr.push([])
+         
+// for ( i = 1; i <= v ; i++){
+     
+//     arr[j].push(i);
+ 
+//      }
+//   }
+  
+// }
+// amd(5,3);
+// console.log(arr);
+
+// Nomor 1.
+
+var tambah = 0;
+
+function amd (v,o){
+  
+for (j = 0 ; j < o ; j++){
+    
+var temp = arr.push([])
+         
+for ( i = 1; i <= v ; i++){
+     tambah++
+    arr[j].push(tambah);
+ 
+     }
+  }
+  
+}
+amd(5,3);
+console.log(arr);
+
+=========================================================
+//catatan MAP FILTER REDUCE
+
+var arr = [1,2,3]
+
+var arrbaru = arr.map(x => x * 3)
+
+console.log(arrBaru)
+
+
+//filter menghasilkan nilai true atau false pada parameternya
+var arrbaru = arr.map(x => x * 3).filter( x => x !== 3)
+
+//reduce
+var arrbaru = arr.map(x => x * 3).filter( x => x !== 3)
+.reduce((total,x) => total += x,0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

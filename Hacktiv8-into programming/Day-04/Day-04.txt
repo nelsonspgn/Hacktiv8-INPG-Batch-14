@@ -1,0 +1,86 @@
+/*buat variable angka
+
+masukkan nilai pada variable angka
+
+jika angka%2 = 1
+
+Tampilkan ganjil
+
+else
+
+tampilkan genap
+
+tambah angka dengan nilai
+
+*/
+
+
+
+/*
+Buat variable grade
+
+masukan nilai ke variable grade
+
+jika nilai > 85
+tampilkan GRADE A
+
+jika nilai > 75 && < 85
+tampilkan GRADE B
+
+jika nilai > 65 && < 75 
+tampilkan GRADE C
+
+jika nilai < 65
+tampilakn GRADE D
+
+*/
+
+
+
+/*
+buat sebuah variable meja
+buat sebuah variable tampungMeja
+buat sebuah variable sisaorangDuduk
+buat sebuah variable jumlahMejaDiPakai
+
+masukkan nilai ke variable meja
+masukkan nilai ke variable tampungMeja
+
+hitung hasil bagi antara meja di mod tampungMeja
+Masukkan hasil perhitungan ke variable sisaOrangDuduk
+
+hitung hasil pembagian antara meja di bagi tampungMeja
+Masukkan hasil perhitungan ke variable jumlahMejaDiPakai lalu di bulatkan kebawah
+*/
+
+
+
+
+/*
+Buatlah sebuah variable kecepatanBecak
+
+Buatlah sebuah variable Penumpang
+
+Masukkan nilai ke variable kecepatanBecak sebesar 20
+
+Masukkan jumlah penumpang 1~4
+
+
+
+IF (Penumpang > 2)
+  DO kecepatanBecak - 5
+  
+ELSE IF (Penumpang <=4 )
+  DO kecepatanBecak - 7
+
+ELSE (Penumpang < 2)
+  DO kecepatanBecak - 2
+
+Tampilkan hasil dari kecepatan becak
+*/
+
+
+life server
+node js
+sudo npm i -g live-server
+  

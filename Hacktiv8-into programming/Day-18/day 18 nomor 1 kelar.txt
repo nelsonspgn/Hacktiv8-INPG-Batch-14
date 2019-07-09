@@ -1,0 +1,15 @@
+function numberIterator(num) {
+  if(num == -1) {
+    return 0;
+  }
+  else {
+ 
+    var b = numberIterator(num -1)+num;
+    var c = b.toString();
+    return c
+  }
+}
+
+
+
+console.log(numberIterator(5)); // '012345'

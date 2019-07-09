@@ -1,0 +1,36 @@
+function csvToObject (text) {
+  
+  var temp = text.split(",")
+  
+//   console.log(temp)
+  
+ 
+
+   var tampung = {
+    
+  }
+  
+  var tampungBaru ={
+     ...tampung,
+     name:temp[0],
+    email:temp[1],
+    gender: temp[2],
+    
+  }
+  
+  return tampungBaru
+  
+  console.log(tampungBaru)
+  
+  
+  
+}
+
+
+
+
+
+console.log(csvToObject('Dimitri,dimitri@mail.com,male'));
+// { name: 'Dimitri', email: 'dimitri@mail.com', gender: 'male' }
+
+

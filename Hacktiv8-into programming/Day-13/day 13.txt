@@ -1,0 +1,58 @@
+//nomor 1
+
+function removeSpaces (text) {
+  // Code to remove spaces from text
+  var t = text.split(" ")
+  var arr = []
+  
+  for (i=0; i<text.length;i++){
+//     console.log(i)
+//     console.log(t)
+    if ( text[i] == " "){
+//       console.log('halo')
+//       console.log(t)
+      
+      var b = t.join('')
+//       console.log(b)
+      
+    }
+    
+}
+  
+  return b
+}
+
+
+
+console.log(removeSpaces('ab cd e'))
+
+
+
+
+themeforest.net
+cari web agency / company profile
+text besar h1 / h2 di dalam background
+hover
+
+
+
+membuat yang @param untuk fucntion
+
+installnya
+npm i -g jsdoc
+
+membuat docs nya
+jsdoc index.js -r -d docs
+
+buka docs lalu live server
+live-server
+===================================
+
+function kalikanDua(angka){
+  return angka * 2
+}
+
+var number = prompt('input angka')
+var result = kalikanDua(number)
+
+alert(result)

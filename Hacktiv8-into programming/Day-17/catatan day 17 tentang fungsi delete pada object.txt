@@ -1,0 +1,20 @@
+//contoh delete
+
+var object = {
+  nama : "rizal",
+  age : undefined,
+  height : 176
+}
+
+delete object.age
+console.log(object)
+
+
+
+
+//2
+//tidak mengubah object asli nya
+//var {} disebut destrucsion
+var { age, ... restObject} = object
+
+console.log(object, restObject)

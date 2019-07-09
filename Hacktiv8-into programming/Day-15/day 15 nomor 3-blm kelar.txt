@@ -1,0 +1,20 @@
+function isPrime (number) {
+ 
+  
+  for ( i = 0 ; i < number ; i++){
+    console.log(i)
+    
+    if ( i % 1 === 0 && i %  ===0){
+      
+      return true
+    }
+    
+      else {
+        return false;
+      }
+  }
+  
+}
+
+// console.log(isPrime(23)); // true
+console.log(isPrime(33)); // false

@@ -1,0 +1,40 @@
+function deleteUndefinedKeys (object) {
+  
+ 
+console.log(Object.values(object));
+  
+  for ( i=0 ; i<3 ; i ++){
+    
+    if ( name === undefined){
+      delete object.name
+    } else if ( age === undefined){
+      delete object.age
+    }
+    else {
+      delete object.email
+         }
+    
+  }
+    
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+// delete object.age
+console.log(object)
+return object
+}
+
+console.log(deleteUndefinedKeys({
+  name: 'Dimitri',
+  age: undefined,
+  email: 'dimitri@mail.com'
+}));
+// { name: 'Dimitri', email: 'dimitri@mail.com' }
+
