@@ -1,0 +1,44 @@
+function grouping (scores) {
+  
+  var fail=[];
+  var pass=[];
+  var temp=[];
+  
+  for ( i = 0 ; i < scores.length ; i++){
+    
+ if ( scores[i] < 75){
+   fail.push(scores[i])
+   console.log("fail: " + fail)
+  
+   
+ } else {
+   
+  pass.push(scores[i])
+   console.log("pass: " + pass)
+   
+         }
+  }
+ 
+
+    var grouping = {
+    
+  }
+
+  var groupingbaru = {
+    ...grouping,
+    fail,
+    pass
+  }
+  
+  console.log(groupingbaru)
+}
+
+
+
+
+
+console.log(grouping([80, 45, 90, 65, 74, 100, 85, 30 ,20]));
+// { pass: [ 80, 90, 100, 85 ], fail: [ 45, 65, 74, 30 ] }
+
+// console.log(grouping([]));
+// // { pass: [], fail: [] }
